@@ -265,7 +265,7 @@ traceroute to ya.ru (87.250.250.242), 30 hops max, 60 byte packets
 **Проверка задания**
 
 1. Выполнить `vagrant up`.
-2. Зайти на `centralRouter` с помощью `vagrant ssh centralRouter`. Выполнить `/opt/knock.sh 10.1.1.1 8882 7772 9992 ; ssh user1@10.1.1.1` и ввести пароль `user`. Тем самым попадем на сервер `inetRouter`.
+2. Зайти на `centralRouter` с помощью `vagrant ssh centralRouter`. Выполнить `/opt/knock.sh 10.1.1.1 8882 7772 9992`, затем `ssh user1@10.1.1.1` и ввести пароль `user`. Тем самым попадем на сервер `inetRouter`.
 3. В консоли или браузере на локалхосте зайти по адресу `http://192.168.12.12:8080`.
 
 
