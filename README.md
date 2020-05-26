@@ -222,7 +222,7 @@ inetRouter
 
 ![alt text](./network-filtering.png)
 
-Установим и запустим nginx на `centralRouter`:
+Установим и запустим nginx на `centralServer`:
 ```
 [root@centralServer ~]# yum install -y epel-release
 [root@centralServer ~]# yum install -y nginx
