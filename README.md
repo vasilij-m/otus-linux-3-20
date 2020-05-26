@@ -242,7 +242,7 @@ inetRouter
 ```
 [root@inetRouter2 ~]# service iptables save
 iptables: Saving firewall rules to /etc/sysconfig/iptables:[  OK  ]
-
+```
 Проверим:
 
 ![alt text](./screenshots/screen1.png)
